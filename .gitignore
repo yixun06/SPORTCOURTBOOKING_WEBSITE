@@ -1,0 +1,24 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# Build output
+**/bin/
+**/obj/
+Debug/
+Release/
+
+# NuGet
+packages/
+
+# Logs and temp
+*.log
+*.tmp
+
+# OS files
+Thumbs.db
+.DS_Store

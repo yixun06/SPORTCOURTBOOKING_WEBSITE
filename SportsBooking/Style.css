@@ -1,0 +1,269 @@
+﻿body{
+    font-family:'Segoe UI', Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background-color: #f4f4f4;
+}
+
+.navBar{
+    background-color:#003366;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.navLogo{
+    float:left;
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+    text-decoration: none; 
+    line-height: 30px; 
+}
+
+
+.hamburgerIcon{
+    float: right;
+    color:white;
+    font-size :28px;
+    cursor: pointer;
+    line-height:30px;
+}
+
+
+.navLinks{
+    display: none;
+    clear: both;
+    background-color: #002a55;
+    width: 100%;
+    margin-top: 15px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+.navLinks a{
+    display:block;
+    padding:15px;
+    color:white;
+    text-decoration:none;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    font-size: 16px;
+}
+
+.navLinks a:hover{
+    background-color: #008CBA;
+ }
+
+.bannerContainer{
+    width: 100%;
+    height: 500px;
+    position:relative;
+    overflow:hidden;
+}
+
+.bannerImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+
+}
+
+.prevBtn, .nextBtn{
+    cursor: pointer;
+    position:absolute;
+    top:45%;
+    padding:15px;
+    color:white;
+    font-size: 24px;
+    background: rgba(0,0,0,0.5);
+    border: none;
+}
+
+.nextBtn{
+    right: 0;
+}
+
+.facilityGrid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.facilityCard{
+    background:white;
+    border: 1px solid #ddd;
+    width:300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius:6px;
+    padding-bottom:15px;
+    overflow:hidden;
+}
+
+.facilityImage {
+    width: 100%;
+    height:180px;
+    object-fit: cover;
+}
+
+.cardContent{
+    padding: 15px;
+    text-align: left;
+}
+
+.locationText{
+    color: #666;
+    font-size:0.9em;
+    margin-bottom: 5px;
+}
+
+.rateBox{
+    background: #eaf6fc;
+    padding:10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    font-size:0.85em;
+    color: #003366;
+}
+
+.bookBtn{
+    background-color: #008CBA;
+    color:white;
+    padding:10px;
+    width:100%;
+    border:none;
+    cursor:pointer;
+    border-radius:4px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.bookBtn:hover {
+    background-color: #007399;
+}
+
+.formContainer{
+    width:90%;
+    max-width:600px;
+    margin:30px auto;
+    background:white;
+    padding:30px;
+    border-radius:8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.formGroup{
+    margin-bottom:15px;
+}
+
+.labelBold{
+    display:block;
+    font-weight:bold;
+    margin-bottom: 5px;
+}
+
+.textBox{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:4px;
+    box-sizing:border-box;
+}
+
+.errorText{
+    color: red;
+    font-size: 12px;
+    display: block;
+    margin-top:3px;
+}
+
+.summaryBox{
+    color: #a94442;
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.modalBackground{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.modalPopup{
+    background:white;
+    padding: 25px;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.modalRow{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    padding-bottom:8px;
+}
+
+.modalLabel{
+    font-weight: bold;
+    color: #003366;
+    display: inline-block;
+    width: 100px;
+}
+
+.btnGroup{
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.cancelBtn{
+    background:#999;
+    background-color:red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    float:left;
+    cursor:pointer;
+}
+
+.confirmBtn{
+    background:#008CBA;
+    background-color:green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    float:right;
+    cursor:pointer;
+}
+
+.historyTable{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: white;
+}
+
+.historyTable th{
+    background: #003366;
+    color: white;
+    padding: 10px;
+    text-align: left;
+ }
+
+.historyTable td{
+    border:1px solid #ddd;
+    padding:10px;
+}
