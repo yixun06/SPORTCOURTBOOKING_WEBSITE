@@ -29,5 +29,16 @@ SportCourtBooking is an ASP.NET Web Forms application for managing sports court 
 4. Run with IIS Express (F5).
 5. Open Booking and History pages to validate core flow.
 
+## Screenshots
+Add screenshots under docs/screenshots and keep these filenames for direct rendering on GitHub.
+
+![Home](docs/screenshots/home.png)
+![Booking](docs/screenshots/booking.png)
+![History](docs/screenshots/history.png)
+
+## Portfolio Notes
+- Designed to demonstrate booking workflow design and server-side form handling.
+- Suitable for showcasing ASP.NET Web Forms fundamentals and structured page navigation.
+
 ## Repository
 - https://github.com/yixun06/SPORTCOURTBOOKING_WEBSITE
