@@ -29,11 +29,12 @@ SportCourtBooking is an ASP.NET Web Forms application for managing sports court 
 5. Open Booking and History pages to validate core flow.
 
 ## Screenshots
-Add screenshots under docs/screenshots and keep these filenames for direct rendering on GitHub.
+<img width="1919" height="934" alt="image" src="https://github.com/user-attachments/assets/6936dd02-37da-45d8-94d2-1ff736195f72" />
+<img width="1919" height="918" alt="image" src="https://github.com/user-attachments/assets/ed598116-b53f-4c5a-be37-9ff9f0de0ac2" />
+<img width="1919" height="918" alt="image" src="https://github.com/user-attachments/assets/76f8e66e-2fd5-4f2f-92a0-69b48344dc30" />
+<img width="1919" height="922" alt="image" src="https://github.com/user-attachments/assets/f5c0afd6-b1f2-4bb9-8b15-000669c370db" />
+<img width="1919" height="923" alt="image" src="https://github.com/user-attachments/assets/3f2fa662-d6d8-493f-b046-002c99fcf5d8" />
 
-![Home](docs/screenshots/home.png)
-![Booking](docs/screenshots/booking.png)
-![History](docs/screenshots/history.png)
 
 ## Portfolio Notes
 - Designed to demonstrate booking workflow design and server-side form handling.
