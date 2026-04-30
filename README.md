@@ -12,7 +12,6 @@ SportCourtBooking is an ASP.NET Web Forms application for managing sports court 
 - ASP.NET Web Forms
 - C#
 - .NET Framework 4.7.2
-- SQL-compatible backend integration
 - HTML/CSS
 
 ## Project Structure
